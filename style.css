@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	background-color: #333;
+	color: #fff;
+	font-family: Arial, Helvetrica, sans-serif;
+}
+
+header{
+	background-color: cadetblue;
+	padding: 15px;
+	text-align: center;
+	margin: 3rem;
+}
+main{
+	text-align: center;
+}
+
+#textarea{
+	border: 2px solid #999;
+	background: transparent;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 17px;
+	color: #FFF;
+	width: 30rem;
+	height: 30rem;
+	outline: none;
+	resize: none;
+}
+
+select, #btn{
+	display: block;
+	width: 20rem;
+	border: 2px solid #999;
+	border-radius: 5px;
+	background: transparent;
+	padding: 1rem;
+	margin: 2rem auto;
+	font-size: 17px;
+	font-weight: bold;
+	outline: none;
+
+}
+
+oprion{
+	background-color: #333;
+}
+
+
+select:disabled,
+button:disabled{
+	opacity: .1;
+}
